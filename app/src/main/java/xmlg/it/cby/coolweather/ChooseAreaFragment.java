@@ -3,7 +3,7 @@ package xmlg.it.cby.coolweather;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.telecom.Call;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,8 +23,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import javax.security.auth.callback.Callback;
 
+import okhttp3.Call;
+import okhttp3.Callback;
 import okhttp3.Response;
 import xmlg.it.cby.coolweather.db.City;
 import xmlg.it.cby.coolweather.db.County;

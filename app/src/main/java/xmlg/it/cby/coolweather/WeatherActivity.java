@@ -6,7 +6,7 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.telecom.Call;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -25,8 +25,9 @@ import com.bumptech.glide.Glide;
 
 import java.io.IOException;
 
-import javax.security.auth.callback.Callback;
 
+import okhttp3.Call;
+import okhttp3.Callback;
 import okhttp3.Response;
 import xmlg.it.cby.coolweather.gson.Forecast;
 import xmlg.it.cby.coolweather.gson.Weather;
