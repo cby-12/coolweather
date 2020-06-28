@@ -30,6 +30,7 @@ import javax.security.auth.callback.Callback;
 import okhttp3.Response;
 import xmlg.it.cby.coolweather.gson.Forecast;
 import xmlg.it.cby.coolweather.gson.Weather;
+import xmlg.it.cby.coolweather.service.AutoUpdateService;
 import xmlg.it.cby.coolweather.util.HttpUtil;
 import xmlg.it.cby.coolweather.util.Utility;
 
